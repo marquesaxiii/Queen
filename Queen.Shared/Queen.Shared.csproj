@@ -5,13 +5,23 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Content Include="_Imports.razor">
-        <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
-      </Content>
+      <PackageReference Include="Microsoft.AspNetCore.Components" Version="5.0.9" />
     </ItemGroup>
 
     <ItemGroup>
-      <PackageReference Include="Microsoft.AspNetCore.Components" Version="5.0.9" />
+      <Compile Remove="obj\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="obj\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="obj\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Remove="obj\**" />
     </ItemGroup>
 
 </Project>
