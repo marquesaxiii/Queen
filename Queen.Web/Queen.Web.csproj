@@ -10,4 +10,25 @@
         <PackageReference Include="System.Net.Http.Json" Version="5.0.0" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\Queen.Shared\Queen.Shared.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Pages\Admin" />
+      <Folder Include="wwwroot\Images" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Update="Pages\Client\OTPVerification.razor">
+        <DependentUpon>OTP.razor</DependentUpon>
+      </Content>
+      <Content Update="Pages\Client\ForgotPasswordCreateNew.razor">
+        <DependentUpon>ForgotPassword.razor</DependentUpon>
+      </Content>
+      <Content Update="_Imports.razor">
+        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      </Content>
+    </ItemGroup>
+
 </Project>

@@ -70,14 +70,70 @@ using Microsoft.JSInterop;
 #nullable disable
 #nullable restore
 #line 9 "C:\Projects\Net Core\Queen\Queen.Web\_Imports.razor"
-using Queen.Web;
+using Queen;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 10 "C:\Projects\Net Core\Queen\Queen.Web\_Imports.razor"
-using Queen.Web.Shared;
+using Queen.Web;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 11 "C:\Projects\Net Core\Queen\Queen.Web\_Imports.razor"
+using Queen.Shared;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 12 "C:\Projects\Net Core\Queen\Queen.Web\_Imports.razor"
+using Queen.Shared.Entity;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 13 "C:\Projects\Net Core\Queen\Queen.Web\_Imports.razor"
+using Queen.Shared.Entity.Enums;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 14 "C:\Projects\Net Core\Queen\Queen.Web\_Imports.razor"
+using Queen.Shared.Entity.Models;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 15 "C:\Projects\Net Core\Queen\Queen.Web\_Imports.razor"
+using Queen.Shared.Layouts;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 16 "C:\Projects\Net Core\Queen\Queen.Web\_Imports.razor"
+using Queen.Shared.Entity;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 17 "C:\Projects\Net Core\Queen\Queen.Web\_Imports.razor"
+using Queen.Shared.States;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 18 "C:\Projects\Net Core\Queen\Queen.Web\_Imports.razor"
+using Queen.Shared.Components;
 
 #line default
 #line hidden
@@ -89,6 +145,7 @@ using Queen.Web.Shared;
         {
         }
         #pragma warning restore 1998
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private UserProfileState UserProfileState { get; set; }
     }
 }
 #pragma warning restore 1591

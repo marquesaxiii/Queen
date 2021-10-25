@@ -1,8 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "Wdt6+vOPqd8jBd5I371PGNwT7SiZfOO8EKJTYcr+b6N+0xXOWLFiTSAc4puGhGUr8F1U28/XGwLyNgUKUykhxQ==",
+  "dgSpecHash": "UwxhP+3JuVdVNTRHeIfzRsnSUCKdgC0CiCTD/qaCgcR3gjjA48vaKHEpJTOBMYFMe5oxrWm3L/ijtm52j7ib2Q==",
   "success": true,
   "projectFilePath": "C:\\Projects\\Net Core\\Queen\\Queen.Shared\\Queen.Shared.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\J\\.nuget\\packages\\microsoft.aspnetcore.authorization\\5.0.9\\microsoft.aspnetcore.authorization.5.0.9.nupkg.sha512",
+    "C:\\Users\\J\\.nuget\\packages\\microsoft.aspnetcore.components\\5.0.9\\microsoft.aspnetcore.components.5.0.9.nupkg.sha512",
+    "C:\\Users\\J\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\5.0.9\\microsoft.aspnetcore.components.analyzers.5.0.9.nupkg.sha512",
+    "C:\\Users\\J\\.nuget\\packages\\microsoft.aspnetcore.metadata\\5.0.9\\microsoft.aspnetcore.metadata.5.0.9.nupkg.sha512",
+    "C:\\Users\\J\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\J\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\J\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
+    "C:\\Users\\J\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

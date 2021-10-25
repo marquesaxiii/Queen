@@ -1,0 +1,39 @@
+﻿@page "/basicprofile"
+
+<div>
+<div class="container">
+    <h2>Queen's Member Profile</h2>
+     <p>Personal Details:</p>            
+     <table class="table table-striped">
+       <thead>
+         <tr>
+           <th>Full Name</th>
+           <th>Gender</th>
+           <th>Date of Birth</th>
+           <th>Mobile No.</th>
+           <th>Email</th>
+         </tr>
+       </thead>
+       <tbody>
+         <tr>
+           <td>
+             @foreach (var fullname in UserProfileState.FullNameList)
+             {
+                 <p>@fullname</p>
+             }
+            </td>
+         </tr>
+         <tr>
+           <td>Mary</td>
+           <td>Moe</td>
+           <td>mary@example.com</td>
+         </tr>
+         <tr>
+           <td>July</td>
+           <td>Dooley</td>
+           <td>july@example.com</td>
+         </tr>
+       </tbody>
+     </table>
+   </div>
+</div>

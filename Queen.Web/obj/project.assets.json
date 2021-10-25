@@ -305,6 +305,19 @@
         "runtime": {
           "lib/net5.0/System.Net.Http.Json.dll": {}
         }
+      },
+      "Queen.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "5.0.9"
+        },
+        "compile": {
+          "bin/placeholder/Queen.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Queen.Shared.dll": {}
+        }
       }
     },
     "net5.0/browser-wasm": {
@@ -610,6 +623,19 @@
         },
         "runtime": {
           "lib/net5.0/System.Net.Http.Json.dll": {}
+        }
+      },
+      "Queen.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "5.0.9"
+        },
+        "compile": {
+          "bin/placeholder/Queen.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Queen.Shared.dll": {}
         }
       }
     }
@@ -1135,12 +1161,18 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Queen.Shared/1.0.0": {
+      "type": "project",
+      "path": "../Queen.Shared/Queen.Shared.csproj",
+      "msbuildProject": "../Queen.Shared/Queen.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
       "Microsoft.AspNetCore.Components.WebAssembly >= 5.0.9",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 5.0.9",
+      "Queen.Shared >= 1.0.0",
       "System.Net.Http.Json >= 5.0.0"
     ]
   },
@@ -1170,7 +1202,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Projects\\Net Core\\Queen\\Queen.Shared\\Queen.Shared.csproj": {
+              "projectPath": "C:\\Projects\\Net Core\\Queen\\Queen.Shared\\Queen.Shared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
