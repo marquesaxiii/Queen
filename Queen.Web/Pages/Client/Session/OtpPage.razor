@@ -1,0 +1,18 @@
+﻿@page "/Otp"
+@inherits OtpPageBase
+
+<div class="center-contents">
+    <div class="border border-4 border-dark rounded-3 shadow w-50 p-5 h-100 mx-auto">
+        <div>
+            <h3>OTP</h3>
+            <small>We will send you an <span class="fw-bold">One Time Password</span> on this mobile number</small>
+        </div>
+        <div class="mx-auto my-4">
+            <label id="otpNumber" for="otpNumber"><small>Enter Mobile Number</small></label>
+            <input type="text" class="form-control text-center" placeholder="+63 000 000 0000">
+        </div>
+        <div class="d-grid mx-auto w-50">
+            <button type="button" class="btn btn-primary" @onclick="GetOtp">Get OTP</button>
+        </div>
+    </div>
+</div>

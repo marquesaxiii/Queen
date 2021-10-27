@@ -20,12 +20,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Content Update="Pages\Client\OTPVerification.razor">
-        <DependentUpon>OTP.razor</DependentUpon>
-      </Content>
-      <Content Update="Pages\Client\ForgotPasswordCreateNew.razor">
-        <DependentUpon>ForgotPassword.razor</DependentUpon>
-      </Content>
       <Content Update="_Imports.razor">
         <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       </Content>
@@ -42,6 +36,11 @@
 
     <ItemGroup>
       <None Remove="obj\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="Pages\UserProfile\BasicProfilePage.razor" />
+      <_ContentIncludedByDefault Remove="Pages\UserProfile\NavigationPage.razor" />
     </ItemGroup>
 
 </Project>

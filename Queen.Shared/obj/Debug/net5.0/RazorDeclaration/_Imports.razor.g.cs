@@ -26,6 +26,90 @@ using System.Net.Http.Json;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "C:\Projects\Net Core\Queen\Queen.Shared\_Imports.razor"
+using Microsoft.AspNetCore.Components.Forms;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 4 "C:\Projects\Net Core\Queen\Queen.Shared\_Imports.razor"
+using Microsoft.AspNetCore.Components.Routing;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 5 "C:\Projects\Net Core\Queen\Queen.Shared\_Imports.razor"
+using Microsoft.AspNetCore.Components.Web;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 6 "C:\Projects\Net Core\Queen\Queen.Shared\_Imports.razor"
+using Microsoft.AspNetCore.Components.Web.Virtualization;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 7 "C:\Projects\Net Core\Queen\Queen.Shared\_Imports.razor"
+using Microsoft.AspNetCore.Components.WebAssembly.Http;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 8 "C:\Projects\Net Core\Queen\Queen.Shared\_Imports.razor"
+using Microsoft.JSInterop;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 9 "C:\Projects\Net Core\Queen\Queen.Shared\_Imports.razor"
+using Queen.Shared.States;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 10 "C:\Projects\Net Core\Queen\Queen.Shared\_Imports.razor"
+using Queen.Shared;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 11 "C:\Projects\Net Core\Queen\Queen.Shared\_Imports.razor"
+using Queen.Shared.Entity;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 12 "C:\Projects\Net Core\Queen\Queen.Shared\_Imports.razor"
+using Queen.Shared.Entity.Enums;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 13 "C:\Projects\Net Core\Queen\Queen.Shared\_Imports.razor"
+using Queen.Shared.Entity.Models;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 14 "C:\Projects\Net Core\Queen\Queen.Shared\_Imports.razor"
+using Queen.Shared.Layouts;
+
+#line default
+#line hidden
+#nullable disable
     public partial class _Imports : System.Object
     {
         #pragma warning disable 1998
@@ -33,6 +117,8 @@ using System.Net.Http.Json;
         {
         }
         #pragma warning restore 1998
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private NavigationManager NavigationManager { get; set; }
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private UserProfileState UserProfileState { get; set; }
     }
 }
 #pragma warning restore 1591

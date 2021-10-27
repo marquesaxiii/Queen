@@ -1,20 +1,20 @@
 ﻿@page "/OTPVerification"
+@inherits OtpVerificationPageBase
 
-<div>
-    <div>
+<div class="center-contents">
+    <div class="border border-4 border-dark rounded-3 shadow w-50 p-5 h-100 mx-auto">
         <div>
             <h3>OTP Verification</h3>
             <p>Enter the OTP sent to....</p>
         </div>
-        <div>
+        <div class="mx-auto my-4">
             <input type="number" class="form-control text-center" id="mobileOtp" maxlength="6" placeholder="XXXXXX" required="required"/>
         </div>
         <div>
             <small>Didn't receive the OTP? <a href="#" class="text-decoration-none">Resend OTP</a></small>
         </div>
-        <div>
-            <a href="#"></a>
-            <button type="button" class="btn btn-primary">Verify</button>
+        <div class="d-grid mx-auto w-50 mt-4">
+            <button class="btn btn-primary" @onclick="OtpVerify">Verify</button>
         </div>
     </div>
 </div>

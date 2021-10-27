@@ -195,13 +195,13 @@
       "mscorlib.dll": "sha256-9AZ7YsJz\/p2gr4E0EQXdHBqwDxoXqtzxhqC6aRsa2K8=",
       "netstandard.dll": "sha256-yOOty6BTX3e57YAEHK5a4nku\/lj0vi7jg\/eQZAjbDQk=",
       "System.Private.CoreLib.dll": "sha256-rraBQp6NevIQiELPVfDFDl5pv9QVJqCiZhB5bkpiZ88=",
-      "Queen.Shared.dll": "sha256-4JXouOgfIrIHe9XO2TJygTR9jJXnufWdqIn0AfChtb8=",
-      "Queen.Web.dll": "sha256-daGd0DfJUsBFpFuyPMJI2fHWpt\/oHMb3MfhnifZxV9A="
+      "Queen.Shared.dll": "sha256-w3TyT3HpTyxnEsOj1TknyBT6M305mGj61t83M3C6gMg=",
+      "Queen.Web.dll": "sha256-mD2pIx5Y2GfiHT5h5g3+mjd1NhEggw6CUVnfAKzdPwI="
     },
     "lazyAssembly": null,
     "pdb": {
-      "Queen.Shared.pdb": "sha256-W1vrK2qPcRlmEQ8y6PHlf5YleO3Tlk6nD+ydaxh2QrE=",
-      "Queen.Web.pdb": "sha256-\/\/dXGP9g8aJZtVBfIHdUeiEOfxRZ1WToqj8VzbNrFug="
+      "Queen.Shared.pdb": "sha256-V8HY5fSsU4Z2uNq\/lxIClK9enEjNv2vC5n+63VZZ4ng=",
+      "Queen.Web.pdb": "sha256-vbe2cO\/pOggyZFu3XR4W8ffMXf2vJcQkX3RNJF5uJXk="
     },
     "runtime": {
       "dotnet.timezones.blat": "sha256-L2vkcKzmXJtf+J7db5TbDMBckrgqJ5qc0ZzVIdRlm0I=",

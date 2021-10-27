@@ -90,6 +90,13 @@ using Queen.Shared;
 #line hidden
 #nullable disable
 #nullable restore
+#line 12 "C:\Projects\Net Core\Queen\Queen.Web\_Imports.razor"
+using Queen.Shared.Entity;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 13 "C:\Projects\Net Core\Queen\Queen.Web\_Imports.razor"
 using Queen.Shared.Entity.Enums;
 
@@ -104,29 +111,15 @@ using Queen.Shared.Entity.Models;
 #line hidden
 #nullable disable
 #nullable restore
-#line 16 "C:\Projects\Net Core\Queen\Queen.Web\_Imports.razor"
-using Queen.Shared.Entity;
-
-#line default
-#line hidden
-#nullable disable
-#nullable restore
-#line 17 "C:\Projects\Net Core\Queen\Queen.Web\_Imports.razor"
-using Queen.Shared.States;
-
-#line default
-#line hidden
-#nullable disable
-#nullable restore
-#line 18 "C:\Projects\Net Core\Queen\Queen.Web\_Imports.razor"
-using Queen.Shared.Components;
-
-#line default
-#line hidden
-#nullable disable
-#nullable restore
-#line 1 "C:\Projects\Net Core\Queen\Queen.Web\App.razor"
+#line 15 "C:\Projects\Net Core\Queen\Queen.Web\_Imports.razor"
 using Queen.Shared.Layouts;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 16 "C:\Projects\Net Core\Queen\Queen.Web\_Imports.razor"
+using Queen.Shared.States;
 
 #line default
 #line hidden
@@ -138,6 +131,7 @@ using Queen.Shared.Layouts;
         {
         }
         #pragma warning restore 1998
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private NavigationManager NavigationManager { get; set; }
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private UserProfileState UserProfileState { get; set; }
     }
 }

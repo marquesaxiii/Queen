@@ -1,0 +1,36 @@
+﻿@page "/basicprofile"
+@inherits BasicProfilePageBase
+
+<div class="center-contents">
+    <div>
+        <div class="container my-4">
+            <h2>Queen's Member Profile</h2>
+            <table class="table table-hover table-bordered">
+                <thead>
+                <tr>
+                    <th>Full Name</th>
+                    <th>Gender</th>
+                    <th>Date of Birth</th>
+                    <th>Mobile No.</th>
+                    <th>Email</th>
+                </tr>
+                </thead>
+                <tbody>
+                @foreach (var client in UserProfileState.ClientList)
+                {
+                    <tr>
+                        <td>@client.FullName</td>
+                        <td>@client.Gender</td>
+                        <td>@client.DateOfBirth</td>
+                        <td>@client.MobileNo</td>
+                        <td>@client.Email</td>
+                    </tr>
+                }
+                </tbody>
+            </table>
+            <div>
+                <button type="button" class="btn-dark" @onclick="BackToMain">Back</button>
+            </div>
+        </div>
+    </div>
+</div>
